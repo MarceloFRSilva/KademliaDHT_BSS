@@ -4,7 +4,7 @@ plugins {
     id 'signing'
 }
 
-group 'io.github.chronosx88'
+group 'com.github.MarceloFRSilva'
 version '1.0'
 
 task javadocJar(type: Jar) {
@@ -47,15 +47,15 @@ uploadArchives {
             }
 
             pom.project {
-                name 'KademliaDHT'
+                name 'KademliaDHT_BSS'
                 packaging 'jar'
                 description 'KademliaDHT implementation in Java'
-                url 'https://github.com/ChronosX88/KademliaDHT'
+                url 'https://github.com/MarceloFRSilva/KademliaDHT_BSS'
 
                 scm {
-                    connection 'scm:git:git://github.com/ChronosX88/KademliaDHT.git'
-                    developerConnection 'scm:git:git@github.com:ChronosX88/KademliaDHT.git'
-                    url 'https://github.com/ChronosX88/KademliaDHT'
+                    connection 'scm:git:git://github.com/MarceloFRSilva/KademliaDHT_BSS.git'
+                    developerConnection 'scm:git:git@github.com:MarceloFRSilva/KademliaDHT_BSS.git'
+                    url 'https://github.com/MarceloFRSilva/KademliaDHT_BSS'
                 }
 
                 licenses {
